@@ -34,7 +34,9 @@ This project demonstrates how to secure a web application using Spring Boot and 
   - Admin:
       - Username: `admin`
       - Password: `admin123`
-
+  - SuperAdmin: Role Admin and User
+      - Username: `superadmin`
+      - Password: `superadmin123`
 ## Demo
 ### Home page:
 ![Home Page](src/main/resources/img/home.png)
@@ -47,7 +49,11 @@ This project demonstrates how to secure a web application using Spring Boot and 
 
 ## Extend
 ### Store data in DataBase and BCryptPasswordEncoder
-![Database](src/main/resources/img/db.png)
+![Database](src/main/resources/img/ERD.png)
+![Database](src/main/resources/img/1.png)
+![Database](src/main/resources/img/2.png)
+![Database](src/main/resources/img/3.png)
+
 ### Authentication and Authorization
 | Path        | Access Role    | Description                     |
 |-------------|--------------|---------------------------------|
@@ -65,3 +71,7 @@ This project demonstrates how to secure a web application using Spring Boot and 
 ![Database](src/main/resources/img/helloadmin.png)
 ![Database](src/main/resources/img/weladmin.png)
 ![Database](src/main/resources/img/adminEr.png)
+### SuperAdmin
+![Database](src/main/resources/img/sp.png)
+![Database](src/main/resources/img/sp1.png)
+![Database](src/main/resources/img/sp2.png)
